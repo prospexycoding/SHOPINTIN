@@ -392,7 +392,6 @@ footer p{
         align-items: center;
         padding: 30px;
         background-color: cyan;
-        position: fixed;
         z-index: 10;
         gap: 5px;
     }
@@ -448,7 +447,7 @@ footer p{
     
     #banner-section{
         width: 100%;
-        height: 100vh;
+        min-height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -532,7 +531,7 @@ footer p{
     
     #product{
         width: 100%;
-        height: 100vh;
+        min-height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -582,7 +581,7 @@ footer p{
     
     #place-order{
         width: 100%;
-        height: 100vh;
+        min-height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -676,7 +675,7 @@ footer p{
     
     #contact-section{
       width: 100%;
-      height: 90vh;
+      min-height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -733,7 +732,7 @@ footer p{
     
     footer{
         width: 100%;
-        height: 5vh;
+        height: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
